@@ -32,6 +32,7 @@ class ChatViewController: JSQMessagesViewController {
         print(senderId)
         print(senderDisplayName)
         messages.append(JSQMessage(senderId: senderId, displayName: senderDisplayName, text: text))
+        collectionView.reloadData()
         print(messages)
         
     }
@@ -39,7 +40,29 @@ class ChatViewController: JSQMessagesViewController {
     override func didPressAccessoryButton(_ sender: UIButton!) {
         print("accessoryButton")
     }
+    
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageDataForItemAt indexPath: IndexPath!) -> JSQMessageData! {
+        return messages[indexPath.item]
+    }
 
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageBubbleImageDataForItemAt indexPath: IndexPath!) -> JSQMessageBubbleImageDataSource! {
+        let bubbleFactory = JSQMessagesBubbleImageFactory()
+        return bubbleFactory?.outgoingMessagesBubbleImage(with: .black)
+    }
+    
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, avatarImageDataForItemAt indexPath: IndexPath!) -> JSQMessageAvatarImageDataSource! {
+        return nil
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return messages.count
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = super.collectionView(collectionView, cellForItemAt: indexPath)
+        return cell
+    }
+    
     @IBAction func logOutDidClicked(_ sender: Any) {
         print("logOut Anoymously did taped")
         
