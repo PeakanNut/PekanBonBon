@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A2E5211DE1E838003A0034 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2E5201DE1E838003A0034 /* Helper.swift */; };
 		00BD22821DE178FE00E1C65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22811DE178FE00E1C65D /* AppDelegate.swift */; };
 		00BD22841DE178FE00E1C65D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22831DE178FE00E1C65D /* ViewController.swift */; };
 		00BD22871DE178FE00E1C65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD22851DE178FE00E1C65D /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		00BD228C1DE178FE00E1C65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD228A1DE178FE00E1C65D /* LaunchScreen.storyboard */; };
 		00BD22971DE178FE00E1C65D /* PeakanBonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22961DE178FE00E1C65D /* PeakanBonTests.swift */; };
 		00BD22A21DE178FE00E1C65D /* PeakanBonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22A11DE178FE00E1C65D /* PeakanBonUITests.swift */; };
+		00BD22B01DE17C2A00E1C65D /* LoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22AF1DE17C2A00E1C65D /* LoinViewController.swift */; };
+		00BD22B21DE17C5800E1C65D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD22B11DE17C5800E1C65D /* ChatViewController.swift */; };
+		00BD22B41DE1AAFE00E1C65D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00BD22B31DE1AAFE00E1C65D /* GoogleService-Info.plist */; };
+		569A09341C8E9A2784868A8A /* Pods_PeakanBonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E68A90F2B8936675BDB4B82 /* Pods_PeakanBonUITests.framework */; };
+		8F8E1166732DDEC522EA92AE /* Pods_PeakanBonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AE6810BD1CFB2106EEC2D4 /* Pods_PeakanBonTests.framework */; };
+		F52C295E69B01542F5EF506C /* Pods_PeakanBon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0132B26D34E3E9EEAE5B6C6F /* Pods_PeakanBon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A2E5201DE1E838003A0034 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../Helper.swift; sourceTree = "<group>"; };
+		00A2E5221DE59575003A0034 /* PeakanBon-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeakanBon-Bridging-Header.h"; sourceTree = "<group>"; };
 		00BD227E1DE178FE00E1C65D /* PeakanBon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeakanBon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BD22811DE178FE00E1C65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BD22831DE178FE00E1C65D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,18 @@
 		00BD229D1DE178FE00E1C65D /* PeakanBonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeakanBonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BD22A11DE178FE00E1C65D /* PeakanBonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakanBonUITests.swift; sourceTree = "<group>"; };
 		00BD22A31DE178FE00E1C65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00BD22AF1DE17C2A00E1C65D /* LoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoinViewController.swift; sourceTree = "<group>"; };
+		00BD22B11DE17C5800E1C65D /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		00BD22B31DE1AAFE00E1C65D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0132B26D34E3E9EEAE5B6C6F /* Pods_PeakanBon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeakanBon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E68A90F2B8936675BDB4B82 /* Pods_PeakanBonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeakanBonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE6810BD1CFB2106EEC2D4 /* Pods_PeakanBonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeakanBonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8207CA01027F52C6F00333E9 /* Pods-PeakanBon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBon.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBon/Pods-PeakanBon.release.xcconfig"; sourceTree = "<group>"; };
+		87EB41E61E696FCC82C822B2 /* Pods-PeakanBon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBon/Pods-PeakanBon.debug.xcconfig"; sourceTree = "<group>"; };
+		8C5C6831E490FF602B2FBE1F /* Pods-PeakanBonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBonUITests/Pods-PeakanBonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2D9CCB26BCDC03354CF379 /* Pods-PeakanBonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBonTests/Pods-PeakanBonTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6572A51E2E4A38E18A01956 /* Pods-PeakanBonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBonTests/Pods-PeakanBonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCD71D146DCE9E707B171A5 /* Pods-PeakanBonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeakanBonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeakanBonUITests/Pods-PeakanBonUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52C295E69B01542F5EF506C /* Pods_PeakanBon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8E1166732DDEC522EA92AE /* Pods_PeakanBonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569A09341C8E9A2784868A8A /* Pods_PeakanBonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,8 @@
 				00BD22951DE178FE00E1C65D /* PeakanBonTests */,
 				00BD22A01DE178FE00E1C65D /* PeakanBonUITests */,
 				00BD227F1DE178FE00E1C65D /* Products */,
+				EFC269CE235367CCB99EAA3D /* Pods */,
+				4A427F854F3139B316254AD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +123,17 @@
 		00BD22801DE178FE00E1C65D /* PeakanBon */ = {
 			isa = PBXGroup;
 			children = (
+				00A2E5201DE1E838003A0034 /* Helper.swift */,
 				00BD22811DE178FE00E1C65D /* AppDelegate.swift */,
 				00BD22831DE178FE00E1C65D /* ViewController.swift */,
+				00BD22B11DE17C5800E1C65D /* ChatViewController.swift */,
 				00BD22851DE178FE00E1C65D /* Main.storyboard */,
 				00BD22881DE178FE00E1C65D /* Assets.xcassets */,
 				00BD228A1DE178FE00E1C65D /* LaunchScreen.storyboard */,
 				00BD228D1DE178FE00E1C65D /* Info.plist */,
+				00BD22B31DE1AAFE00E1C65D /* GoogleService-Info.plist */,
+				00BD22AF1DE17C2A00E1C65D /* LoinViewController.swift */,
+				00A2E5221DE59575003A0034 /* PeakanBon-Bridging-Header.h */,
 			);
 			path = PeakanBon;
 			sourceTree = "<group>";
@@ -125,6 +156,29 @@
 			path = PeakanBonUITests;
 			sourceTree = "<group>";
 		};
+		4A427F854F3139B316254AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0132B26D34E3E9EEAE5B6C6F /* Pods_PeakanBon.framework */,
+				72AE6810BD1CFB2106EEC2D4 /* Pods_PeakanBonTests.framework */,
+				6E68A90F2B8936675BDB4B82 /* Pods_PeakanBonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC269CE235367CCB99EAA3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87EB41E61E696FCC82C822B2 /* Pods-PeakanBon.debug.xcconfig */,
+				8207CA01027F52C6F00333E9 /* Pods-PeakanBon.release.xcconfig */,
+				F6572A51E2E4A38E18A01956 /* Pods-PeakanBonTests.debug.xcconfig */,
+				EB2D9CCB26BCDC03354CF379 /* Pods-PeakanBonTests.release.xcconfig */,
+				8C5C6831E490FF602B2FBE1F /* Pods-PeakanBonUITests.debug.xcconfig */,
+				FBCD71D146DCE9E707B171A5 /* Pods-PeakanBonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BD22A61DE178FE00E1C65D /* Build configuration list for PBXNativeTarget "PeakanBon" */;
 			buildPhases = (
+				94E9219A941ADCD2F81B4FFA /* [CP] Check Pods Manifest.lock */,
 				00BD227A1DE178FE00E1C65D /* Sources */,
 				00BD227B1DE178FE00E1C65D /* Frameworks */,
 				00BD227C1DE178FE00E1C65D /* Resources */,
+				61947CD0FFBE6F12513A4C9C /* [CP] Embed Pods Frameworks */,
+				291C6F39C5507BD27BF65F49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BD22A91DE178FE00E1C65D /* Build configuration list for PBXNativeTarget "PeakanBonTests" */;
 			buildPhases = (
+				D13659CCA083E2C4E1699E03 /* [CP] Check Pods Manifest.lock */,
 				00BD228E1DE178FE00E1C65D /* Sources */,
 				00BD228F1DE178FE00E1C65D /* Frameworks */,
 				00BD22901DE178FE00E1C65D /* Resources */,
+				3D610752570A2BDC47303E75 /* [CP] Embed Pods Frameworks */,
+				40ABD584851FC111BCCEEF5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BD22AC1DE178FE00E1C65D /* Build configuration list for PBXNativeTarget "PeakanBonUITests" */;
 			buildPhases = (
+				C4D83690A6BC295285DE164F /* [CP] Check Pods Manifest.lock */,
 				00BD22991DE178FE00E1C65D /* Sources */,
 				00BD229A1DE178FE00E1C65D /* Frameworks */,
 				00BD229B1DE178FE00E1C65D /* Resources */,
+				D1858240CA5060DDAFD9B4C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +255,7 @@
 				TargetAttributes = {
 					00BD227D1DE178FE00E1C65D = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					00BD22911DE178FE00E1C65D = {
@@ -235,6 +298,7 @@
 				00BD228C1DE178FE00E1C65D /* LaunchScreen.storyboard in Resources */,
 				00BD22891DE178FE00E1C65D /* Assets.xcassets in Resources */,
 				00BD22871DE178FE00E1C65D /* Main.storyboard in Resources */,
+				00BD22B41DE1AAFE00E1C65D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +318,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		291C6F39C5507BD27BF65F49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeakanBon/Pods-PeakanBon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D610752570A2BDC47303E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeakanBonTests/Pods-PeakanBonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40ABD584851FC111BCCEEF5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeakanBonTests/Pods-PeakanBonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61947CD0FFBE6F12513A4C9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeakanBon/Pods-PeakanBon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E9219A941ADCD2F81B4FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D83690A6BC295285DE164F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D13659CCA083E2C4E1699E03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1858240CA5060DDAFD9B4C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeakanBonUITests/Pods-PeakanBonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00BD227A1DE178FE00E1C65D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00BD22841DE178FE00E1C65D /* ViewController.swift in Sources */,
+				00BD22B01DE17C2A00E1C65D /* LoinViewController.swift in Sources */,
+				00A2E5211DE1E838003A0034 /* Helper.swift in Sources */,
+				00BD22B21DE17C5800E1C65D /* ChatViewController.swift in Sources */,
 				00BD22821DE178FE00E1C65D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,30 +598,41 @@
 		};
 		00BD22A71DE178FE00E1C65D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EB41E61E696FCC82C822B2 /* Pods-PeakanBon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PeakanBon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhenggong.PeakanBon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PeakanBon/PeakanBon-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		00BD22A81DE178FE00E1C65D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8207CA01027F52C6F00333E9 /* Pods-PeakanBon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = PeakanBon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhenggong.PeakanBon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PeakanBon/PeakanBon-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		00BD22AA1DE178FE00E1C65D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6572A51E2E4A38E18A01956 /* Pods-PeakanBonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +647,7 @@
 		};
 		00BD22AB1DE178FE00E1C65D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB2D9CCB26BCDC03354CF379 /* Pods-PeakanBonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +662,7 @@
 		};
 		00BD22AD1DE178FE00E1C65D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5C6831E490FF602B2FBE1F /* Pods-PeakanBonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PeakanBonUITests/Info.plist;
@@ -473,6 +676,7 @@
 		};
 		00BD22AE1DE178FE00E1C65D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCD71D146DCE9E707B171A5 /* Pods-PeakanBonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PeakanBonUITests/Info.plist;
@@ -503,6 +707,7 @@
 				00BD22A81DE178FE00E1C65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00BD22A91DE178FE00E1C65D /* Build configuration list for PBXNativeTarget "PeakanBonTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +716,7 @@
 				00BD22AB1DE178FE00E1C65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00BD22AC1DE178FE00E1C65D /* Build configuration list for PBXNativeTarget "PeakanBonUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +725,7 @@
 				00BD22AE1DE178FE00E1C65D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

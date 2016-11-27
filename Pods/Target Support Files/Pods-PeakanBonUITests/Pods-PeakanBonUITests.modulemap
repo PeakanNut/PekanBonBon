@@ -1,0 +1,6 @@
+framework module Pods_PeakanBonUITests {
+  umbrella header "Pods-PeakanBonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
