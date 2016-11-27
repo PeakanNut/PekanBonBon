@@ -13,18 +13,31 @@ import JSQMessagesViewController
 
 class ChatViewController: JSQMessagesViewController {
 
+    var messages = [JSQMessage]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.senderId = "1"
         self.senderDisplayName = "zero2launch"
         
-        override func didPressSend(<#T##button: UIButton!##UIButton!#>, withMessageText: <#T##String!#>, senderId: <#T##String!#>, senderDisplayName: <#T##String!#>, date: <#T##Date!#>){
-            print("didPreeeSendButton")
-            print("")
-        }
 
         // Do any additional setup after loading the view.
+    }
+    
+    
+    override func didPressSend(_ button: UIButton!, withMessageText text: String!, senderId: String!, senderDisplayName: String!, date: Date!) {
+        print("didPressSendButton")
+        print(text)
+        print(senderId)
+        print(senderDisplayName)
+        messages.append(JSQMessage(senderId: senderId, displayName: senderDisplayName, text: text))
+        print(messages)
+        
+    }
+    
+    override func didPressAccessoryButton(_ sender: UIButton!) {
+        print("accessoryButton")
     }
 
     @IBAction func logOutDidClicked(_ sender: Any) {
